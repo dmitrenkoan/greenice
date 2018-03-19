@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'CityController@index');
+Route::get('/', 'CityController@index')->name('city_index');

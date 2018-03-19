@@ -60,7 +60,7 @@
             <div class="col-sm-8">
 
                 <div class="col-2">
-                    <form>
+                    <form action="{{route('city_index')}}" method="GET">
                         <div class="form-group">
 
                             <label for="exampleFormControlSelect1"></label>
